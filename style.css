@@ -73,10 +73,9 @@
     width: 250px;
     border: groove;
     border-color:black;
-    border-radius: 20px;
 }
 .divimg img:hover{
-    width:270px
+    width:280px
 }
 .divimg h4{
     padding-bottom: 30px;
