@@ -63,27 +63,25 @@
 }
 .divimg{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .webimg{
-    border: solid;
-    border-radius: 20px;
     margin-bottom: 50px;
     padding: 20px;
 }
 .divimg a img{
-    width: 400px;
-    border: none;
+    width: 250px;
+    border: groove;
+    border-color:black;
     border-radius: 20px;
 }
 .divimg img:hover{
-    width:450px
+    width:270px
 }
 .divimg h4{
     padding-bottom: 30px;
 }
+
 
 /* EDUCATION */
 
