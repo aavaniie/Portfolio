@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=IBM+Plex+Mono:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+}
+/* NAVBAR */
+
+.navbar{
+    background-color:palegoldenrod;
+}
+#logo{
+    font-family: 'Babylonica', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color:#6b6243 ;
+}
+.navbar button{
+    color:#6b6243;
+}
+#offcanvasNavbar{
+    width: 200px;
+    background-color:palegoldenrod;
+}
+
+/* MAIN TEXT */
+
+.maintext{
+    height: 650px;
+    width: 100%;
+    text-align: center;
+    background-color:palegoldenrod;
+}
+.maintext h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 250px;
+}
+.maintext p{
+    color: black;
+    margin: auto;
+    font-size: 25px;
+    padding: 20px;
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+@keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+
+/* ABOUT */
+
+.about{
+    padding: 60px;
+    background-color:rgb(223, 218, 167);
+}
+.about h2{
+  color: black;
+}
+.about p{
+  color: black;
+}
+
+/* SKILLS */
+
+.skills h1{
+    padding: 70px ;
+}
+.skills{
+    background-color:palegoldenrod;
+    padding: 70px;
+}
+
+/* PORTFOLIO */
+
+.portfolio h1{
+    padding: 30px;
+    color: black;
+}
+.portfolio{
+    background: palegoldenrod;
+    margin-bottom: 0px;
+}
+.imgdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.img1{
+    text-align: center;
+}
+#img{
+    background-color: rgb(165, 160, 106);
+}
+.portfolio img{
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 15px;
+    margin: 20px;
+    width: 300px;
+}
+  
+
+  
+/* EDUCATION */
+
+.education{
+    margin: 30px;
+}
+#education{
+    background-color:palegoldenrod;
+    padding: 10px;
+    color: black;
+    margin-top: 0px;
+  }
+.education h1{
+    padding: 30px;
+}
+#edu p{
+    color: black;
+}
+/* FOOTER */
+
+#card{
+  background-color: palegoldenrod;
+}
+.card-body{
+  background-color:palegoldenrod;
+}
+.card-body h5,p{
+  color:black ;
+}
+#cardfooter{
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 280px) {
+    .maimtext{
+      text-align: center;
+      padding: 20px;
+    }
+    .about{
+        padding: 40px 15px;
+    }
+    .skills{
+        padding: 30px 20px;
+    }
+    .portfolio img{
+        width: 160px;
+        margin: 20px auto;
+    }
+    #img{
+        width: 260px;
+        text-align: center;
+    }
+    #button{
+        font-size: 10px;
+    }
+    .portfolio h4{
+        font-size: 16px;
+    }
+  }
